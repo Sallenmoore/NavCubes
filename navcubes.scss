@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : May 12, 2014, 12:02:03 PM
+    Author     : steven
+*/
+
+i {font-size: 24px}
+
+.nav-cube-menus {
+    position: absolute;
+}
+
+.nav-cube-right {
+    width: 342px;
+    right: 0;
+}
+
+.navcube-button {
+    padding-right: .25em;
+}
+
+.collapsible {
+    margin-bottom: 20px;
+    background: #EBEBEB;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    width: 320px;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: #333333;
+    overflow: hidden;
+}
+.collapsible button {
+    height: auto;
+    float: left;
+    border: 1px solid #999999;
+    background: #999999;
+    color: #CECECE;
+    margin-left: 10px;
+}
+.collapsible button:hover {
+    background: #990000;
+    border: 1px solid #990000;
+}
+.slide-wrapper{overflow:hidden;}
+
+.stacked{
+    position:absolute;
+}
