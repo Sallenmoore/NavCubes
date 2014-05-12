@@ -14,20 +14,21 @@ $(document).ready(function() {
             var marginWidth = $('.nav-cube-menus').outerWidth() - (visibleWidth * num_elements);
             $(this).css({'margin-left': marginWidth});
             num_elements--;
-        })
+        });
     }
 
     $(buttonEl).click(function()
     {
         var width = (($(this).parent().outerWidth() * 2) / 3);
         var margin = $(this).parent().css('margin-left').replace(/[^-\d\.]/g, '');
+        var slide;
         if ($(this).parent().hasClass('navcube-toggle'))
         {
-            var slide = parseInt(margin) + width;
+            slide = parseInt(margin) + width;
             $(this).parent().removeClass('navcube-toggle');
             $(this).parent().animate({marginLeft: slide});
         } else {
-            var slide = parseInt(margin) - width;
+            slide = parseInt(margin) - width;
             $(this).parent().addClass('navcube-toggle');
             $(this).parent().animate({marginLeft: slide});
         }

@@ -8,45 +8,39 @@ and open the template in the editor.
     Author     : steven
 */
 
-i {font-size: 24px}
+$cube_width: 342px;
 
 .nav-cube-menus {
     position: absolute;
 }
 
 .nav-cube-right {
-    width: 342px;
+    width: $cube_width;
     right: 0;
+    top: 50px;
 }
 
 .navcube-button {
-    padding-right: .25em;
+    margin-right: 20px;
 }
 
 .collapsible {
     margin-bottom: 20px;
-    background: #EBEBEB;
     border: 1px solid #CCCCCC;
-    padding: 10px;
+    padding: 20px;
     width: 320px;
-    font: 12px Arial, Helvetica, sans-serif;
-    color: #333333;
     overflow: hidden;
 }
 .collapsible button {
-    height: auto;
+    height: 3em;
+    width: 3em;
     float: left;
     border: 1px solid #999999;
     background: #999999;
-    color: #CECECE;
-    margin-left: 10px;
 }
 .collapsible button:hover {
     background: #990000;
     border: 1px solid #990000;
 }
-.slide-wrapper{overflow:hidden;}
 
-.stacked{
-    position:absolute;
-}
+.slide-wrapper{overflow:hidden;}
